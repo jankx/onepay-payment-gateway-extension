@@ -1,0 +1,16 @@
+{
+    "name": "OnePay Payment Gateway",
+    "description": "OnePay payment gateway for the payment-system extension. Supports international cards (Visa/Mastercard/JCB) and domestic ATM/Napas cards via the OnePay VPC hosted-redirect flow.",
+    "version": "1.0.0",
+    "author": "Jankx",
+    "extension_id": "onepay-payment-gateway",
+    "caller": {
+        "file": "OnepayPaymentGatewayExtension.php",
+        "class": "Jankx\\Extensions\\Onepay\\OnepayPaymentGatewayExtension"
+    },
+    "requirements": {
+        "php": ">=8.0"
+    },
+    "context": ["admin", "frontend", "rest", "ajax"],
+    "auto_activate": true
+}
